@@ -1,0 +1,27 @@
+{
+  "id": 3,
+  "title": "ООО «АВЕНТА ИНЖИНИРИНГ»",
+  "desc": "ООО «АВЕНТА ИНЖИНИРИНГ» является структурным подразделением управляющей компании «Bestcon life». Решаем проблемы до их возникновения и предотвращаем аварийные ситуации. Поддерживаем дома и придомовые территории в первозданном виде",
+  "photo": "/src/assets/img/organization/org_aventa_inzhiniring.webp",
+  "fon": "/src/assets/img/organization/fon_aventa_inzhiniring.webp",
+  "doc": [
+    {
+      "path": "/src/pages/organization/doc/aventa/Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года.pdf",
+      "fileName": "Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года",
+      "type": "PDF",
+      "size": "801 КБ"
+    },
+    {
+      "path": "/src/pages/organization/doc/aventa/Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года от 19.06.2023 №125-01 исх-10141.docx",
+      "fileName": "Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года от 19.06.2023 №125-01 исх-10141",
+      "type": "WORD",
+      "size": "85,5 КБ"
+    },
+    {
+      "path": "/src/pages/organization/doc/aventa/Приложение_отопление.docx",
+      "fileName": "Приложение_отопление.docx",
+      "type": "WORD",
+      "size": "92 КБ"
+    }
+  ]
+}

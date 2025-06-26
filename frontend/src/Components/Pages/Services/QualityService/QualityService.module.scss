@@ -1,0 +1,92 @@
+.qualityService {
+  position: relative;
+  background-color: var(--lightBlack);
+  background-image: url("/src/assets/img/call-to-action-2-1920x584.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  @media (max-width: 750px) {
+    background-position: 30% 100%;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+
+    @media (max-width: 750px) {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: var(--lightBlack);
+      opacity: 0.6;
+    }
+  }
+
+  .containerQualityService {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'left supTitle'
+      'left title'
+      'left desc'
+      'left button';
+    padding-top: clamp(30px, 8vw, 90px);
+    padding-bottom: clamp(30px, 8vw, 90px);
+    padding-right: clamp(20px, 30vw, 100px);
+
+    @media (max-width: 750px) {
+      grid-template-columns: 1fr;
+    }
+
+  }
+
+  &__left {
+    grid-area: left;
+  }
+
+  &__supTitle {
+    grid-area: supTitle;
+    font-family: var(--main-font);
+    font-size: clamp(18px, 4vw, 24px);
+    line-height: 100%;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  &__title {
+    grid-area: title;
+    margin-top: 5px;
+    font-family: var(--main-font);
+    font-size: clamp(25px, 6vw, 40px);
+    line-height: 120%;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  &__description {
+    grid-area: desc;
+    font-family: var(--main-font);
+    line-height: 150%;
+    color: var(--gray);
+    margin-top: clamp(18px, 4vw, 24px);
+    max-width: 580px;
+  }
+
+  &__button {
+    grid-area: button;
+    margin-top: clamp(25px, 6vw, 40px);
+    font-weight: 300;
+  }
+
+  &__supTitle,
+  &__title,
+  &__description,
+  &__button {
+    position: relative;
+    z-index: 1;
+  }
+
+}

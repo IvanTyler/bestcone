@@ -1,0 +1,31 @@
+.documents {
+  background-color: #fff;
+
+  .containerDocuments {
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 911px);
+    grid-template-areas:
+      'title documents';
+    gap: 40px 20px;
+    padding-top: clamp(30px, 10vw, 80px);
+    padding-bottom: clamp(30px, 10vw, 80px);
+
+    @media (max-width: 1200px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      'title'
+      'documents'
+    }
+  }
+
+  &__title {
+    grid-area: title;
+  }
+
+  .documentsList {
+    grid-area: documents;
+  }
+
+
+}

@@ -1,0 +1,52 @@
+.aboutCompany {
+
+  .containerAboutCompany {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: minmax(auto, 500px) minmax(auto, 795px);
+    grid-template-areas:
+        'title wrapperPhoto'
+        'desc wrapperPhoto'
+        'documents wrapperPhoto';
+    gap: 20px 40px;
+    padding-top: clamp(30px, 8vw, 90px);
+    padding-bottom: clamp(30px, 8vw, 90px);
+
+    @media (max-width: 980px) {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'title'
+        'desc'
+        'documents'
+        'wrapperPhoto';
+    }
+
+  }
+
+  &__title {
+    grid-area: title;
+    font-size: clamp(24px, 4vw, 36px);
+    font-family: var(--main-font);
+    color: var(--lightBlack);
+    font-weight: 400;
+  }
+
+  &__wrapperPhoto {
+    grid-area: wrapperPhoto;
+    max-height: 360px;
+  }
+
+  &__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__desc {
+    font-family: var(--main-font);
+    grid-area: desc;
+    font-size: clamp(14px, 1vw, 16px);
+    color: var(--lightGray);
+    font-weight: 300;
+  }
+}

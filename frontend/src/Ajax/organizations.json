@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "ООО «БЭСТ СЕРВИС»",
+    "desc": "ООО «БЭСТ СЕРВИС» является структурным подразделением управляющей компании «Bestcon life».  Занимается обеспечением бесперебойной работы всех инженерных систем эксплуатируемых домов",
+    "photo": "/src/assets/img/organization/org_best_servis.webp",
+    "fon": "/src/assets/img/organization/fon_best_servis.webp",
+    "link": "best_servis"
+  },
+  {
+    "id": 2,
+    "title": "ООО «БЭСТ СЕРВИС РА»",
+    "desc": "ООО «БЭСТ СЕРВИС РА» является структурным подразделением управляющей компании «Bestcon life». Занимается поддержанием чистоты и порядка в местах общего пользования, а также благоустройством и текущим ремонтом в домах и на дворовых территориях жилых комплексов",
+    "photo": "/src/assets/img/organization/org_best_servis_ra.webp",
+    "fon": "/src/assets/img/organization/fon_best_servis_ra.webp",
+    "link": "best_servis_ra"
+  },
+  {
+    "id": 3,
+    "title": "ООО «АВЕНТА ИНЖИНИРИНГ»",
+    "desc": "ООО «АВЕНТА ИНЖИНИРИНГ» является структурным подразделением управляющей компании «Bestcon life». Решаем проблемы до их возникновения и предотвращаем аварийные ситуации. Поддерживаем дома и придомовые территории в первозданном виде",
+    "photo": "/src/assets/img/organization/org_aventa_inzhiniring.webp",
+    "fon": "/src/assets/img/organization/fon_aventa_inzhiniring.webp",
+    "link": "aventa_inzhiniring",
+    "doc": [
+      {
+        "id": 11,
+        "path": "/src/pages/organization/doc/aventa/Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года.pdf",
+        "fileName": "Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года",
+        "type": "PDF",
+        "size": "801 КБ"
+      },
+      {
+        "id": 22,
+        "path": "/src/pages/organization/doc/aventa/Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года от 19.06.2023 №125-01 исх-10141.docx",
+        "fileName": "Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года от 19.06.2023 №125-01 исх-10141",
+        "type": "WORD",
+        "size": "85,5 КБ"
+      },
+      {
+        "id": 33,
+        "path": "/src/pages/organization/doc/aventa/Приложение_отопление.docx",
+        "fileName": "Приложение_отопление.docx",
+        "type": "WORD",
+        "size": "92 КБ"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "ООО «УК ЭТАЛОН»",
+    "desc": "ООО «УК ЭТАЛОН» является структурным подразделением управляющей компании «Bestcon life».  Обеспечиваем благоприятные условия для жизни в многоквартирных домах, которыми мы управляем",
+    "photo": "/src/assets/img/organization/org_uk_etalon.webp",
+    "fon": "/src/assets/img/organization/fon_uk_etalon.webp",
+    "link": "uk_etalon"
+  },
+  {
+    "id": 5,
+    "title": "ООО «ЭТНА»",
+    "desc": "ООО «ЭТНА» является структурным подразделением управляющей компании «Bestcon life».Занимается обеспечением бесперебойной работы всех инженерных систем эксплуатируемых домов",
+    "photo": "/src/assets/img/organization/org_etna.webp",
+    "fon": "/src/assets/img/organization/fon_etna.webp",
+    "link": "etna"
+  },
+  {
+    "id": 6,
+    "title": "ООО «УЮТ»",
+    "desc": "ООО «УЮТ» является структурным подразделением управляющей компании «Bestcon life». Осуществляет комплекс мероприятий по профессиональной уборке, поддерживающих чистоту и эстетичный вид офисных и частных помещений",
+    "photo": "/src/assets/img/organization/org_uyut.webp",
+    "fon": "/src/assets/img/organization/fon_uyut.webp",
+    "link": "uyut"
+  }
+]

@@ -1,0 +1,40 @@
+.breadcrumbsCustomPath {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: end;
+  gap: 10px clamp(10px, 4vw, 30px);
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: clamp(10px, 4vw, 30px);
+    position: relative;
+    font-weight: var(--main-font);
+
+    &::before {
+      display: none;
+    }
+
+    &:not(:last-child)::after {
+      content: "\e097";
+      display: inline-block;
+      font-size: 9px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  &__link,
+  &__item {
+    transition: color var(--transitionTime);
+    color: #aeb1be;
+    font-family: var(--main-font);
+    font-weight: 300;
+  }
+
+  &__link {
+    &:hover {
+      color: #fff;
+    }
+  }
+
+}

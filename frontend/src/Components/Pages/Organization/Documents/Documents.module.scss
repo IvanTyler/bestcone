@@ -1,0 +1,20 @@
+.documents {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  grid-area: documents;
+
+  &__title {
+    font-size: clamp(24px, 4vw, 36px);
+    font-family: var(--main-font);
+    color: var(--lightBlack);
+    font-weight: 400;
+  }
+
+}
+
+.documentsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}

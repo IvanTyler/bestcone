@@ -1,0 +1,17 @@
+.objectsManagement {
+  background-color: #f5f6fa;
+
+  .containerObjectsManagement {
+    padding-top: clamp(50px, 8vw, 120px);
+    padding-bottom: clamp(50px, 8vw, 120px);
+  }
+
+  &__title {
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 400;
+    color: var(--lightBlack);
+    font-size: clamp(24px, 5vw, 36px);
+    line-height: 120%;
+  }
+}

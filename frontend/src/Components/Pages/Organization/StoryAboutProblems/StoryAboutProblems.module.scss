@@ -1,0 +1,108 @@
+.storyAboutProblems {
+  background: linear-gradient(90deg, #2d73bc 5.49%, #38bafe 59.45%, #E0ECFE 60%);
+  cursor: pointer;
+
+  @media (max-width: 980px) {
+    background: linear-gradient(#2d73bc 26.49%, #38bafe 79.45%);
+  }
+
+  .containerStoryAboutProblems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 980px) {
+      grid-template-columns: 1fr;
+      max-width: 100%;
+      padding: 0;
+    }
+
+  }
+
+  &__left {
+    padding: 34px 20px 34px 0;
+
+    @media (max-width: 980px) {
+      padding: 20px;
+      order: 2;
+    }
+  }
+
+  &__title {
+    font-size: clamp(20px, 4vw, 32px);
+    line-height: 120%;
+    font-family: var(--main-font);
+    font-weight: 700;
+    color: #fff;
+    max-width: 530px;
+  }
+
+  &__subTitle {
+    margin-top: 12px;
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 400;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    height: 52px;
+    background-color: #fff;
+    color: #0b1f33;
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    padding: 0 20px;
+    line-height: 100%;
+    border-radius: 8px;
+    transition: background-color var(--transitionTime);
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e4ecfd;
+    }
+
+  }
+
+  &__right {
+    position: relative;
+    background-image: url("https://pos.gosuslugi.ru/bin/banner-fluid/35/banner-fluid-bg-35-2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f8efec;
+
+    @media (max-width: 1470px) {
+      background-position: calc(100% + 100px) bottom;
+    }
+
+    @media (max-width: 980px) {
+      order: 1;
+      height: clamp(200px, 33vw, 300px);
+    }
+
+  }
+
+  &__logoWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 16px 16px;;
+    background-color: #fff;
+    border-radius: 0 0 8px 0;
+  }
+
+  &__slogan {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    color: #005ca9;
+  }
+
+}

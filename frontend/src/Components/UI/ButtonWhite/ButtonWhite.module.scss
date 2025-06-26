@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--main-font);
+  height: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  padding: 0 32px;
+  border-radius: 12px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: border-color var(--transitionTime), background-color var(--transitionTime);
+
+  &:hover {
+    border-color: var(--blue);
+    background-color: var(--blue);
+  }
+
+  &::after {
+    content: '';
+    background-image: url("/src/assets/icons/row-down.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 10px;
+  }
+}

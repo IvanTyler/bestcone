@@ -1,0 +1,28 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: "Work Sans", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.main {
+  flex: 1 1 auto;
+  background-color: #fff;
+}
+
+:root {
+  --main-font: 'Roboto';
+  --co-main-font: 'fl-bigmug-line';
+  --transitionTime: .3s;
+
+  --blue: #4854ED;
+  --lightBlack: #29293a;
+
+  --gray: #aeb1be;
+  --lightGray: #74757f;
+}
+
+@import url("assets/fonts/Roboto/roboto.scss");
+
+@import url('assets/fonts/icons-bigmug-line/fl-icon.scss');
