@@ -1,0 +1,68 @@
+.button {
+    overflow: hidden;
+
+  &__buttonWinona {
+    position: relative;
+    display: inline-block;
+    padding: clamp(10px, 5vw, 17px) clamp(25px, 5vw, 55px);
+    font-size: clamp(12px, 3vw, 16px);
+    line-height: 1.25;
+    border: 2px solid;
+    border-radius: 6px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    color: #fff;
+    background-color: #4854ed;
+    border-color: #4854ed;
+    animation-name: slideInUp;
+    animation-duration: 1.4s;
+    transition: background-color var(--transitionTime) ease, border-color var(--transitionTime) ease;
+
+    @keyframes slideInUp {
+      0% {
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+      }
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    &:hover {
+      background-color: #5f6aef;
+      border-color: #5f6aef;
+
+      span:first-child {
+        opacity: 0;
+        transform: translate3d(0, -30%, 0);
+      }
+
+      span:last-child {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) translateY(-50%);
+      }
+    }
+  }
+
+  &__buttonWinonaText {
+    display: inline-block;
+    transition: var(--transitionTime);
+  }
+
+  &__buttonWinonaText.duplicate {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,25 +1,32 @@
 const express = require('express');
 const cors = require('cors')
-const {projects, projectsListInfo} = require("./data");
+const path = require('path');
+
+const indexRouter = require('./routes/indexRouter');
+const projectInfoRouter = require('./routes/projectsInfoRouter');
+const organizationsRouter = require('./routes/organizationsRouter');
+const organizationsInfoRouter = require('./routes/organizationInfoRouter');
 
 
 const app = express();
-const PORT = 3000;
+const PORT = 3005;
+
+app.use(cors({
+    // origin: ['http://localhost:3000', 'http://localhost:3001'], // все возможные порты
+    // credentials: true
+}));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors())
 
-app.get('/', (req, res) => {
-    res.json(projects)
-})
+app.use('/assets', express.static(path.join(__dirname, 'src/assets')));
 
-app.post('/projectsInfo', (req, res) => {
-    const { id } = req.body
+app.use('/', indexRouter);
+app.use('/projectsInfo', projectInfoRouter);
+app.use('/organizations', organizationsRouter);
+app.use('/organizationsInfo', organizationsInfoRouter);
 
-    const projectInfo = projectsListInfo.find(el => el.id === id);
-    res.json(projectInfo)
-});
+
 
 app.listen(PORT, () => {
     console.log('server work >>>', PORT)

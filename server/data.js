@@ -3,7 +3,7 @@ const projects = [
         "title": "ЖК «ИзМайЛовО»",
         "desc": "Современный жилой комплекс «ИзМайЛовО» возведен по уникальному архитектурному проекту. Два корпуса переменной этажности эффектно выделяются на фоне окружающих зданий. В доме есть квартиры с террасами и панорамным остеклением. На первых этажах разположены физкультурно-оздоровительный комплекс, спа-центр, ресторан, магазин и аптека. Отделка холлов и лифтовых зон выполнена по авторскому дизайн проекту, с применением высококачественных материалов. Дом рассчитан на 348 квартир с планировкой от 1 до 5 комнат",
         "id": 1,
-        "photo": "/src/assets/img/projects/izmailovo/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/izmailovo/index.webp",
         "address": "Москва, ул. Никитинская, 10",
         "category": "ЖК",
         "date_construction": "2022",
@@ -17,7 +17,7 @@ const projects = [
         "title": "ЖК «The Mid»",
         "desc": "«The MID» – самое высокое 33 этажное здание, расположенное на Ленинском проспекте в одном из престижных районов столицы. Эффектная высотка спроектирована в лучших традициях классической архитектуры 50-х годов. Проект реализован архитектурной мастерской SPEECH, являющейся сегодня одним из «законодателей мод» современной архитектуры Москвы",
         "id": 2,
-        "photo": "/src/assets/img/projects/mid/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/mid/index.webp",
         "address": "Москва, пр-т Ленинский, 95Б",
         "category": "ЖК",
         "date_construction": "2018",
@@ -31,7 +31,7 @@ const projects = [
         "title": "ЖК «Сколков Бор»",
         "desc": "Жилой комплекс бизнес-класса состоит из четырех корпусов: три корпуса по 9 этажей, один – 10 этажей. Фасад здания выполнен в традиции русского модерна: арочные проемы и окна украшены орнаментом из натурального камня. Благодаря оригинальному архитектурному решению, дом образует уютный внутренний дворик с детскими площадками и аллеями.Прилегающая к комплексу территория огорожена и имеет охрану. В подземной части всех корпусов предусмотрено несколько автостоянок, каждая из которых имеет отдельный въезд. В подземный паркинг можно попасть непосредственно из холла здания на лифте. Кроме того, предусмотрена гостевая автостоянка. Инфраструктура комплекса будет развиваться и дальше, планируется строительство спортивного комплекса с бассейном, салона красоты",
         "id": 3,
-        "photo": "/src/assets/img/projects/skolkov-bor/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/skolkov-bor/index.webp",
         "address": "Рабочий посёлок Заречье, Университетская 1",
         "category": "ЖК",
         "date_construction": "2012",
@@ -45,7 +45,7 @@ const projects = [
         "title": "ЖК «Русский Авангард»",
         "desc": "Комплекс состоит из пяти жилых корпусов, высота которых составляет пять этажей. Все дома выполнены в едином архитектурном стиле по индивидуальному проекту в стиле авангард. При строительстве использованы только самые современные и высококачественные материалы, выполнено панорамное остекление окон.Территория комплекса полностью благоустроена, огорожена и тщательно охраняется в круглосуточном режиме",
         "id": 4,
-        "photo": "/src/assets/img/projects/russkiy-avangard/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/russkiy-avangard/index.webp",
         "address": "Рабочий посёлок Заречье, ул. Тихая, 19",
         "category": "ЖК",
         "date_construction": "2011",
@@ -59,7 +59,7 @@ const projects = [
         "title": "ЖК «Академгородок Сколков»",
         "desc": "ЖК «Академгородок Сколков» - это малоэтажный жилой комплекс бизнес-класса с благо устроенной территорией. В его состав входят четыре отдельно стоящих монолитно-кирпичных корпуса, строящихся по индивидуальному архитектурному проекту. Отделка вестибюлей и общих холлов жилого комплекса выполнена по авторскому дизайн-проекту, отражающему роль науки и образования в жизни современного человека. Каждый корпус имеет свой уникальный стиль, связанный с той или иной естественной наукой: физикой, химией, биологией или географией. В нескольких минутах пешком начинается Баковский лесопарк, недалеко Мещерские пруды и Дворцово-парковый ансамбль Мещерский. На общественном транспорте по пос. Заречье из Москвы можно доехать на автобусах от метро «Славянский бульвар» или «Парк Победы»",
         "id": 5,
-        "photo": "/src/assets/img/projects/akademgorodok-skolkovo/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/akademgorodok-skolkovo/index.webp",
         "address": "Рабочий посёлок Заречье, ул. Тихая, 26",
         "category": "ЖК",
         "date_construction": "2015",
@@ -73,7 +73,7 @@ const projects = [
         "title": "ЖК «Дом на Тихой»",
         "desc": "Жилой комплекс представляет собой 5-этажный монолитно-каркасный дом бизнес-класса, строящийся по индивидуальному проекту, выполненный в стиле Ар-деко. В доме квартиры свободной планировки, больших площадей и панорамные окна. Для автолюбителей есть подземная парковка",
         "id": 6,
-        "photo": "/src/assets/img/projects/dom-na-tikhoy/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/dom-na-tikhoy/index.webp",
         "address": "Рабочий посёлок Заречье, ул. Тихая, 24",
         "category": "ЖК",
         "date_construction": "2016",
@@ -87,7 +87,7 @@ const projects = [
         "title": "ЖК «Русская Усадьба»",
         "desc": "Жилой комплекс «Русская Усадьба» представляет собой 4-этажное 2-секционное монолитно-кирпичное здание .На огороженной территории Жилого Комплекса осуществляется: круглосуточная охрана, видеонаблюдение, пропускная система. Внутренний двор с зелеными аллеями оборудованы детские и спортивные площадки, места для отдыха и прогулок, собственный выход в парк. Комфортный подземный паркинг. Жилой комплекс располагается в экологически чистом и престижном районе, в лесном массиве с развитой инфраструктурой и удобной транспортной доступностью, 2 км от МКАД, 25 минут до центра Москвы. Городской транспорт до метро Киевская, Кунцевская и Славянский Бульвар",
         "id": 7,
-        "photo": "/src/assets/img/projects/russkaya-usadba/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/russkaya-usadba/index.webp",
         "address": "Рабочий посёлок Заречье, ул. Тихая, 25",
         "category": "Дом",
         "date_construction": "2013",
@@ -101,7 +101,7 @@ const projects = [
         "title": "ЖК «Клубный дом на Плющихе»",
         "desc": "В Хамовниках, среди архитектурного ансамбля старинных московских особняков, расположился ЖК «Клубный дом на Плющихе». Семиэтажный комплекс премиум-класса выполнен по индивидуальному проекту. В его инженерии и дизайне – идеальное сочетание технологичной современности и роскошной старины",
         "id": 8,
-        "photo": "/src/assets/img/projects/dom-na-plyushchikhe/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/dom-na-plyushchikhe/index.webp",
         "address": "Москва, Земледельческий пер 11",
         "category": "ЖК",
         "date_construction": "2004",
@@ -115,7 +115,7 @@ const projects = [
         "title": "ЖК «Клубный дом на Арбате»",
         "desc": "Дом находится в одном из исторически значимых районов центра Москвы — в тихом переулке Старого Арбата. Шестиэтажный особняк был спроекти-рован архитектором А. А. Бирюковым еще в 1908 г. В 2009 году началась полная реконструкция дома с целью воссоздания главного фасада и улучшения внутренних жилых характеристик",
         "id": 9,
-        "photo": "/src/assets/img/projects/klubnyy-dom-na-arbate/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/klubnyy-dom-na-arbate/index.webp",
         "address": "Москва, Староконюшенный пер., 45",
         "category": "Дом",
         "date_construction": "2012",
@@ -129,7 +129,7 @@ const projects = [
         "title": "Плотникоff",
         "desc": "«Плотникоff» — современное здание, выстроенное в стиле XVII века, гармонично вписано в окружаю-щую застройку столичного исторического центра. Для отделки фасада дома и общественных зон ис-пользованы эксклюзивные и высококачественные материалы, подборки каменных декоративных па-нелей, архитектурных деталей и рельефов.",
         "id": 10,
-        "photo": "/src/assets/img/projects/plotnikoff/index.webp",
+        "photo": "http://localhost:3005/assets/img/projects/plotnikoff/index.webp",
         "address": "Москва, Плотников пер.1",
         "category": "ЖК",
         "date_construction": "2004",
@@ -162,19 +162,19 @@ const projectsListInfo = [
         "seo_title": "izmailovo",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/izmailovo/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/izmailovo/photo-1.webp"
             },
             {
-                "photo": "/src/assets/img/projects/izmailovo/photo-2.webp"
+                "photo": "http://localhost:3005/assets/img/projects/izmailovo/photo-2.webp"
             },
             {
-                "photo": "/src/assets/img/projects/izmailovo/photo-3.webp"
+                "photo": "http://localhost:3005/assets/img/projects/izmailovo/photo-3.webp"
             },
             {
-                "photo": "/src/assets/img/projects/izmailovo/photo-4.webp"
+                "photo": "http://localhost:3005/assets/img/projects/izmailovo/photo-4.webp"
             },
             {
-                "photo": "/src/assets/img/projects/izmailovo/photo-5.webp"
+                "photo": "http://localhost:3005/assets/img/projects/izmailovo/photo-5.webp"
             }
         ],
         "info": {
@@ -203,7 +203,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/src/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -211,15 +211,15 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "ДУ Никитинский от 22.03.2022г.pdf",
-                "link": "/src/assets/documents/projects/izmailovo/Протокол 1 2022 от 23.05.2022г..pdf"
+                "link": "http://localhost:3005/assets/doc/projects/izmailovo/Протокол 1 2022 от 23.05.2022г.pdf"
             },
             {
                 "title": "Протокол 1 2022 от 23.05.2022г.pdf",
-                "link": "/src/assets/documents/projects/izmailovo/Протокол 1 2022 от 23.05.2022г.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/izmailovo/Протокол 1 2022 от 23.05.2022г.pdf"
             },
             {
                 "title": "Энергетический паспорт рег.№ СРО-Э-051-168-1944.pdf",
-                "link": "/src/assets/documents/projects/izmailovo/Энергетический паспорт рег.№ СРО-Э-051-168-1944.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/izmailovo/Энергетический паспорт рег.№ СРО-Э-051-168-1944.pdf"
             }
         ],
         "team": [
@@ -255,16 +255,16 @@ const projectsListInfo = [
         "seo_title": "mid",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/mid/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/mid/index.webp"
             },
             {
-                "photo": "/src/assets/img/projects/mid/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/mid/photo-1.webp"
             },
             {
-                "photo": "/src/assets/img/projects/mid/photo-2.webp"
+                "photo": "http://localhost:3005/assets/img/projects/mid/photo-2.webp"
             },
             {
-                "photo": "/src/assets/img/projects/mid/photo-3.webp"
+                "photo": "http://localhost:3005/assets/img/projects/mid/photo-3.webp"
             }
         ],
         "info": {
@@ -293,15 +293,15 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
         ],
         "documents": [
             {
-                "title": "Протокол 1_2019 от 21.08.2019г..pdf",
-                "link": "/src/assets/documents/projects/mid/Протокол 1_2019 от 21.08.2019г..pdf"
+                "title": "Протокол 1_2019 от 21.08.2019г.pdf",
+                "link": "http://localhost:3005/assets/doc/projects/mid/Протокол 1_2019 от 21.08.2019г.pdf"
             }
         ],
         "team": [
@@ -337,16 +337,16 @@ const projectsListInfo = [
         "seo_title": "skolkov-bor",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/skolkov-bor/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/skolkov-bor/index.webp"
             },
             {
-                "photo": "/src/assets/img/projects/skolkov-bor/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/skolkov-bor/photo-1.webp"
             },
             {
-                "photo": "/src/assets/img/projects/skolkov-bor/photo-2.webp"
+                "photo": "http://localhost:3005/assets/img/projects/skolkov-bor/photo-2.webp"
             },
             {
-                "photo": "/src/assets/img/projects/skolkov-bor/photo-3.webp"
+                "photo": "http://localhost:3005/assets/img/projects/skolkov-bor/photo-3.webp"
             }
         ],
         "info": {
@@ -375,7 +375,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -383,11 +383,11 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "БС Лицензия от 29.04.2015г.  МО.pdf",
-                "link": "/src/assets/documents/projects/skolkov-bor/БС Лицензия от 29.04.2015г.  МО.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/skolkov-bor/БС Лицензия от 29.04.2015г.  МО.pdf"
             },
             {
                 "title": "БС Лицензия от 29.04.2015г. МО-2.pdf",
-                "link": "/src/assets/documents/projects/skolkov-bor/БС Лицензия от 29.04.2015г.  МО-2.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/skolkov-bor/БС Лицензия от 29.04.2015г.  МО-2.pdf"
             }
         ],
         "team": [
@@ -423,22 +423,22 @@ const projectsListInfo = [
         "seo_title": "russkiy-avangard",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/russkiy-avangard/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/russkiy-avangard/index.webp"
             },
             {
-                "photo": "/src/assets/img/projects/russkiy-avangard/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/russkiy-avangard/photo-1.webp"
             },
             {
-                "photo": "/src/assets/img/projects/russkiy-avangard/photo-2.webp"
+                "photo": "http://localhost:3005/assets/img/projects/russkiy-avangard/photo-2.webp"
             },
             {
-                "photo": "/src/assets/img/projects/russkiy-avangard/photo-3.webp"
+                "photo": "http://localhost:3005/assets/img/projects/russkiy-avangard/photo-3.webp"
             },
             {
-                "photo": "/src/assets/img/projects/russkiy-avangard/photo-4.webp"
+                "photo": "http://localhost:3005/assets/img/projects/russkiy-avangard/photo-4.webp"
             },
             {
-                "photo": "/src/assets/img/projects/russkiy-avangard/photo-5.webp"
+                "photo": "http://localhost:3005/assets/img/projects/russkiy-avangard/photo-5.webp"
             }
         ],
         "info": {
@@ -469,7 +469,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -477,23 +477,23 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "Протокол от 11.12.2014г. Тих. 21.pdf",
-                "link": "/src/assets/documents/projects/russkiy-avangard/Протокол от 11.12.2014г. Тих. 21.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/russkiy-avangard/Протокол от 11.12.2014г. Тих. 21.pdf"
             },
             {
                 "title": "Протокол от 11.12.2014г. тих. 22.pdf",
-                "link": "/src/assets/documents/projects/russkiy-avangard/Протокол от 11.12.2014г. тих. 22.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/russkiy-avangard/Протокол от 11.12.2014г. тих. 22.pdf"
             },
             {
                 "title": "Протокол от 11.12.2014г. тих. 23.pdf",
-                "link": "/src/assets/documents/projects/russkiy-avangard/Протокол от 11.12.2014г. тих. 23.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/russkiy-avangard/Протокол от 11.12.2014г. тих. 23.pdf"
             },
             {
                 "title": "Протокол 11.12.2014г. Тих. 19.pdf",
-                "link": "/src/assets/documents/projects/russkiy-avangard/Протокол 11.12.2014г. Тих. 19.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/russkiy-avangard/Протокол 11.12.2014г. Тих. 19.pdf"
             },
             {
                 "title": "Протокол 11.12.2014г. Тих. 20.pdf",
-                "link": "/src/assets/documents/projects/russkiy-avangard/Протокол 11.12.2014г. Тих. 20.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/russkiy-avangard/Протокол 11.12.2014г. Тих. 20.pdf"
             }
         ],
         "team": [
@@ -529,16 +529,16 @@ const projectsListInfo = [
         "seo_title": "akademgorodok-skolkovo",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/akademgorodok-skolkovo/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/akademgorodok-skolkovo/index.webp"
             },
             {
-                "photo": "/src/assets/img/projects/akademgorodok-skolkovo/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/akademgorodok-skolkovo/photo-1.webp"
             },
             {
-                "photo": "/src/assets/img/projects/akademgorodok-skolkovo/photo-2.webp"
+                "photo": "http://localhost:3005/assets/img/projects/akademgorodok-skolkovo/photo-2.webp"
             },
             {
-                "photo": "/src/assets/img/projects/akademgorodok-skolkovo/photo-3.webp"
+                "photo": "http://localhost:3005/assets/img/projects/akademgorodok-skolkovo/photo-3.webp"
             }
         ],
         "info": {
@@ -569,7 +569,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -577,19 +577,19 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "Протокол Общего собрания собственников ул. Тихая д.26к.1.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/Протокол Общего собрания собственников ул. Тихая д.26к.1.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/Протокол Общего собрания собственников ул. Тихая д.26к.1.pdf"
             },
             {
                 "title": "Протокол Общего собрания собственников ул. Тихая д.26к.2.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/Протокол Общего собрания собственников ул. Тихая д.26к.2.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/Протокол Общего собрания собственников ул. Тихая д.26к.2.pdf"
             },
             {
                 "title": "Протокол Общего собрания собственников ул. Тихая д.26к.3.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/Протокол Общего собрания собственников ул. Тихая д.26к.3.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/Протокол Общего собрания собственников ул. Тихая д.26к.3.pdf"
             },
             {
                 "title": "Протокол Общего собрания собственников ул. Тихая д.26к.4.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/Протокол Общего собрания собственников ул. Тихая д.26к.4.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/Протокол Общего собрания собственников ул. Тихая д.26к.4.pdf"
             }
         ],
         "team": [
@@ -625,7 +625,7 @@ const projectsListInfo = [
         "seo_title": "dom-na-tikhoy",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/dom-na-tikhoy/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/dom-na-tikhoy/index.webp"
             }
         ],
         "info": {
@@ -656,7 +656,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -664,7 +664,7 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "Лиц. БЭСТ Сервис РА 30.04.2015г. МО.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/Протокол 29.01.2017г..pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/Протокол 29.01.2017г..pdf"
             }
         ],
         "team": [
@@ -700,7 +700,7 @@ const projectsListInfo = [
         "seo_title": "russkaya-usadba",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/russkaya-usadba/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/russkaya-usadba/index.webp"
             }
         ],
         "info": {
@@ -731,7 +731,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -739,7 +739,7 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "Протокол от 01.03.2015г.pdf",
-                "link": "/src/assets/documents/projects/russkaya-usadba/Протокол от 01.03.2015г.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/russkaya-usadba/Протокол от 01.03.2015г.pdf"
             }
         ],
         "team": [
@@ -775,10 +775,10 @@ const projectsListInfo = [
         "seo_title": "dom-na-plyushchikhe",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/dom-na-plyushchikhe/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/dom-na-plyushchikhe/index.webp"
             },
             {
-                "photo": "/src/assets/img/projects/dom-na-plyushchikhe/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/dom-na-plyushchikhe/photo-1.webp"
             }
         ],
         "info": {
@@ -809,7 +809,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -817,15 +817,15 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "ЛЗ от 07.11.2018г. смена наименования.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/ЛЗ от 07.11.2018г. смена наименования.pdf"
+                "link": "http://localhost:3005/assets/documents/projects/akademgorodok-skolkovo/ЛЗ от 07.11.2018г. смена наименования.pdf"
             },
             {
                 "title": "Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf"
+                "link": "http://localhost:3005/assets/documents/projects/akademgorodok-skolkovo/Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf"
             },
             {
                 "title": "ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf"
+                "link": "http://localhost:3005/assets/documents/projects/akademgorodok-skolkovo/ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf"
             }
         ],
         "team": [
@@ -861,19 +861,19 @@ const projectsListInfo = [
         "seo_title": "klubnyy-dom-na-arbate",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/klubnyy-dom-na-arbate/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/klubnyy-dom-na-arbate/index.webp"
             },
             {
-                "photo": "/src/assets/img/projects/klubnyy-dom-na-arbate/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/klubnyy-dom-na-arbate/photo-1.webp"
             },
             {
-                "photo": "/src/assets/img/projects/klubnyy-dom-na-arbate/photo-2.webp"
+                "photo": "http://localhost:3005/assets/img/projects/klubnyy-dom-na-arbate/photo-2.webp"
             },
             {
-                "photo": "/src/assets/img/projects/klubnyy-dom-na-arbate/photo-3.webp"
+                "photo": "http://localhost:3005/assets/img/projects/klubnyy-dom-na-arbate/photo-3.webp"
             },
             {
-                "photo": "/src/assets/img/projects/klubnyy-dom-na-arbate/photo-4.webp"
+                "photo": "http://localhost:3005/assets/img/projects/klubnyy-dom-na-arbate/photo-4.webp"
             }
         ],
         "info": {
@@ -904,7 +904,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -912,15 +912,15 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "ЛЗ от 07.11.2018г. смена наименования.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/ЛЗ от 07.11.2018г. смена наименования.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/ЛЗ от 07.11.2018г. смена наименования.pdf"
             },
             {
                 "title": "Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf"
             },
             {
                 "title": "ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf"
             }
         ],
         "team": [
@@ -956,16 +956,16 @@ const projectsListInfo = [
         "seo_title": "plotnikoff",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/plotnikoff/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/plotnikoff/index.webp"
             },
             {
-                "photo": "/src/assets/img/projects/plotnikoff/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/plotnikoff/photo-1.webp"
             },
             {
-                "photo": "/src/assets/img/projects/plotnikoff/photo-2.webp"
+                "photo": "http://localhost:3005/assets/img/projects/plotnikoff/photo-2.webp"
             },
             {
-                "photo": "/src/assets/img/projects/plotnikoff/photo-3.webp"
+                "photo": "http://localhost:3005/assets/img/projects/plotnikoff/photo-3.webp"
             }
         ],
         "info": {
@@ -996,7 +996,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -1004,15 +1004,15 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "ЛЗ от 07.11.2018г. смена наименования.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/ЛЗ от 07.11.2018г. смена наименования.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/ЛЗ от 07.11.2018г. смена наименования.pdf"
             },
             {
                 "title": "Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf"
             },
             {
                 "title": "ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf",
-                "link": "/src/assets/documents/projects/akademgorodok-skolkovo/ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf"
+                "link": "http://localhost:3005/assets/doc/projects/akademgorodok-skolkovo/ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf"
             }
         ],
         "team": [
@@ -1048,16 +1048,16 @@ const projectsListInfo = [
         "seo_title": "veshnyaki",
         "home_slider": [
             {
-                "photo": "/src/assets/img/projects/veshnyaki/index.webp"
+                "photo": "http://localhost:3005/assets/img/projects/veshnyaki/index.webp"
             },
             {
-                "photo": "/src/assets/img/projects/veshnyaki/photo-1.webp"
+                "photo": "http://localhost:3005/assets/img/projects/veshnyaki/photo-1.webp"
             },
             {
-                "photo": "/src/assets/img/projects/veshnyaki/photo-2.webp"
+                "photo": "http://localhost:3005/assets/img/projects/veshnyaki/photo-2.webp"
             },
             {
-                "photo": "/src/assets/img/projects/veshnyaki/photo-3.webp"
+                "photo": "http://localhost:3005/assets/img/projects/veshnyaki/photo-3.webp"
             }
         ],
         "info": {
@@ -1088,7 +1088,7 @@ const projectsListInfo = [
         "news": [
             {
                 "title": "В продаже в этом ЖК появились новые квартиры",
-                "photo": "/src/assets/img/object/news-card-1.jpg",
+                "photo": "http://localhost:3005/assets/img/object/news-card-1.jpg",
                 "date": "15.10.2023",
                 "desc": "Жилой комплекс окружен зелеными зонами. Ближайшая из них - парк Крылатские холмы, в 3 км Серебряный бор, в 1,5 км — парки Березовая Роща и Ходынское поле. Для прогулок подойдет и Карамышевская набережная."
             }
@@ -1096,15 +1096,15 @@ const projectsListInfo = [
         "documents": [
             {
                 "title": "ЛЗ от 07.11.2018г. смена наименования.pdf",
-                "link": "/src/assets/documents/projects/skolkov-bor/ЛЗ от 07.11.2018г. смена наименования.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/skolkov-bor/ЛЗ от 07.11.2018г. смена наименования.pdf"
             },
             {
                 "title": "Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf",
-                "link": "/src/assets/documents/projects/skolkov-bor/Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf"
+                "link": "http://localhost:3005/assets/doc/projects/skolkov-bor/Лицензия УК Сервис Групп_ЭталонЭкспресс.pdf"
             },
             {
                 "title": "ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf",
-                "link": "/src/assets/documents/projects/skolkov-bor/ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf"
+                "link": "http://localhost:3005/assets/doc/projects/skolkov-bor/ЭЭ Увед. о прод. лицензии от 16.11.22г..pdf"
             }
         ],
         "team": [
@@ -1141,43 +1141,43 @@ const organizations = [
         "id": 1,
         "title": "ООО «БЭСТ СЕРВИС»",
         "desc": "ООО «БЭСТ СЕРВИС» является структурным подразделением управляющей компании «Bestcon life».  Занимается обеспечением бесперебойной работы всех инженерных систем эксплуатируемых домов",
-        "photo": "/src/assets/img/organization/org_best_servis.webp",
-        "fon": "/src/assets/img/organization/fon_best_servis.webp",
+        "photo": "http://localhost:3005/assets/img/organization/org_best_servis.webp",
+        "fon": "http://localhost:3005/assets/img/organization/fon_best_servis.webp",
         "link": "best_servis"
     },
     {
         "id": 2,
         "title": "ООО «БЭСТ СЕРВИС РА»",
         "desc": "ООО «БЭСТ СЕРВИС РА» является структурным подразделением управляющей компании «Bestcon life». Занимается поддержанием чистоты и порядка в местах общего пользования, а также благоустройством и текущим ремонтом в домах и на дворовых территориях жилых комплексов",
-        "photo": "/src/assets/img/organization/org_best_servis_ra.webp",
-        "fon": "/src/assets/img/organization/fon_best_servis_ra.webp",
+        "photo": "http://localhost:3005/assets/img/organization/org_best_servis_ra.webp",
+        "fon": "http://localhost:3005/assets/img/organization/fon_best_servis_ra.webp",
         "link": "best_servis_ra"
     },
     {
         "id": 3,
         "title": "ООО «АВЕНТА ИНЖИНИРИНГ»",
         "desc": "ООО «АВЕНТА ИНЖИНИРИНГ» является структурным подразделением управляющей компании «Bestcon life». Решаем проблемы до их возникновения и предотвращаем аварийные ситуации. Поддерживаем дома и придомовые территории в первозданном виде",
-        "photo": "/src/assets/img/organization/org_aventa_inzhiniring.webp",
-        "fon": "/src/assets/img/organization/fon_aventa_inzhiniring.webp",
+        "photo": "http://localhost:3005/assets/img/organization/org_aventa_inzhiniring.webp",
+        "fon": "http://localhost:3005/assets/img/organization/fon_aventa_inzhiniring.webp",
         "link": "aventa_inzhiniring",
         "doc": [
             {
                 "id": 11,
-                "path": "/src/pages/organization/doc/aventa/Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года.pdf",
+                "path": "http://localhost:3005/assets/doc/organization/aventa/Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года.pdf",
                 "fileName": "Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года",
                 "type": "PDF",
                 "size": "801 КБ"
             },
             {
                 "id": 22,
-                "path": "/src/pages/organization/doc/aventa/Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года от 19.06.2023 №125-01 исх-10141.docx",
+                "path": "http://localhost:3005/assets/doc/organization/aventa/Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года от 19.06.2023 №125-01 исх-10141.docx",
                 "fileName": "Корректировка платы за ОТОПЛЕНИЕ и ОДН 2022 года от 19.06.2023 №125-01 исх-10141",
                 "type": "WORD",
                 "size": "85,5 КБ"
             },
             {
                 "id": 33,
-                "path": "/src/pages/organization/doc/aventa/Приложение_отопление.docx",
+                "path": "http://localhost:3005/assets/doc/organization/aventa/Приложение_отопление.docx",
                 "fileName": "Приложение_отопление.docx",
                 "type": "WORD",
                 "size": "92 КБ"
@@ -1188,24 +1188,24 @@ const organizations = [
         "id": 4,
         "title": "ООО «УК ЭТАЛОН»",
         "desc": "ООО «УК ЭТАЛОН» является структурным подразделением управляющей компании «Bestcon life».  Обеспечиваем благоприятные условия для жизни в многоквартирных домах, которыми мы управляем",
-        "photo": "/src/assets/img/organization/org_uk_etalon.webp",
-        "fon": "/src/assets/img/organization/fon_uk_etalon.webp",
+        "photo": "http://localhost:3005/assets/img/organization/org_uk_etalon.webp",
+        "fon": "http://localhost:3005/assets/img/organization/fon_uk_etalon.webp",
         "link": "uk_etalon"
     },
     {
         "id": 5,
         "title": "ООО «ЭТНА»",
         "desc": "ООО «ЭТНА» является структурным подразделением управляющей компании «Bestcon life».Занимается обеспечением бесперебойной работы всех инженерных систем эксплуатируемых домов",
-        "photo": "/src/assets/img/organization/org_etna.webp",
-        "fon": "/src/assets/img/organization/fon_etna.webp",
+        "photo": "http://localhost:3005/assets/img/organization/org_etna.webp",
+        "fon": "http://localhost:3005/assets/img/organization/fon_etna.webp",
         "link": "etna"
     },
     {
         "id": 6,
         "title": "ООО «УЮТ»",
         "desc": "ООО «УЮТ» является структурным подразделением управляющей компании «Bestcon life». Осуществляет комплекс мероприятий по профессиональной уборке, поддерживающих чистоту и эстетичный вид офисных и частных помещений",
-        "photo": "/src/assets/img/organization/org_uyut.webp",
-        "fon": "/src/assets/img/organization/fon_uyut.webp",
+        "photo": "http://localhost:3005/assets/img/organization/org_uyut.webp",
+        "fon": "http://localhost:3005/assets/img/organization/fon_uyut.webp",
         "link": "uyut"
     }
 ];

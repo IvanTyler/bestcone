@@ -1,0 +1,57 @@
+.buttonScrollTop {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  color: #fff;
+  background: #4854ed;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.45s ease-in-out, background 0.3s cubic-bezier(0.2, 1, 0.3, 1);
+  transform: translate3d(0, 100px, 0);
+  cursor: pointer;
+
+  &::after {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+
+  &:hover {
+    background: #5f6aef;
+    &::after {
+      opacity: 1;
+      transform: translate3d(0, 0, 0) translateY(-50%);
+    }
+
+    &::before {
+      opacity: 0;
+      transform: translate3d(0, -30%, 0);
+    }
+  }
+
+  &::before {
+    display: block;
+  }
+
+
+  &::before,
+  &::after {
+    content: '\e0c7';
+    font-size: 20px;
+    line-height: 48px;
+    vertical-align: middle;
+    transition: transform 0.3s cubic-bezier(0.2, 1, 0.3, 1), opacity 0.3s cubic-bezier(0.2, 1, 0.3, 1);
+  }
+}
+
+.buttonScrollTop.active {
+  transform: translate3d(0, 0, 0);
+}

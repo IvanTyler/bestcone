@@ -1,0 +1,75 @@
+.documentsItem {
+  display: grid;
+  grid-template-columns: 29px 1fr;
+  grid-template-areas:
+    'wrapperIcon fileName'
+    'wrapperIcon wrapperType';
+  gap: 10px 15px;
+  padding: 10px 10px 10px 6px;
+  background-color: #F9F9F9;
+  border-radius: 4px;
+
+  &__fileName {
+    grid-area: fileName;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+  }
+
+  &__wrapperIcon {
+    align-self: center;
+    grid-area: wrapperIcon;
+    width: 29px;
+    height: 36px;
+  }
+
+  &__wrapperType {
+    grid-area: wrapperType;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__type {
+    grid-area: type;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      height: 1.5px;
+      width: 1.5px;
+      border-radius: 50%;
+      background-color: #74757f;
+    }
+
+  }
+
+  &__type,
+  &__size {
+    font-size: 13px;
+    color: #74757f;
+  }
+
+  &__size {
+    grid-area: size;
+  }
+
+
+}

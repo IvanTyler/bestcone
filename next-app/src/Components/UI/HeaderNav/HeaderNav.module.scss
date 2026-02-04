@@ -1,0 +1,122 @@
+.headerNav {
+  height: 100%;
+
+  @media (max-width: 980px) {
+    position: fixed;
+    top: 56px;
+    right: 0;
+    height: 100%;
+    width: 270px;
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  .headerNavList {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    height: 100%;
+
+    @media (max-width: 980px) {
+      flex-direction: column;
+      align-items: normal;
+      gap: 5px;
+    }
+
+    &__item.showSubMenu {
+      transition: max-height .7s ease;
+
+      @media (max-width: 980px) {
+        overflow: hidden;
+      }
+    }
+
+    &__link,
+    &__button {
+      display: flex;
+      font-family: var(--main-font);
+      text-transform: uppercase;
+      color: var(--lightBlack);
+      font-weight: 500;
+      font-size: 14px;
+      transition: color var(--transitionTime) ease, background-color var(--transitionTime) ease;
+
+      &:hover {
+        color: #4854ed;
+
+        @media (max-width: 980px) {
+          color: #fff;
+          background-color: #4854ed;
+        }
+      }
+
+      @media (max-width: 980px) {
+        padding: 14px 18px;
+      }
+    }
+
+    &__button {
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    &__button.showSubMenu {
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+
+      &::after {
+        content: '';
+        position: relative;
+        top: -1px;
+        display: inline-block;
+        background-image: url("../../../assets/icons/common/arrow-black.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 6px;
+        height: 10px;
+        transform: rotate(-90deg);
+        transition: transform var(--transitionTime) ease;
+      }
+
+    }
+
+    &__link {
+      @media (max-width: 980px) {
+        &:hover {
+          &::after {
+            background-image: url("../../../assets/icons/common/arrow-white.svg");
+          }
+        }
+      }
+    }
+
+    &__button.showDropdown {
+      &::after {
+        transform: rotate(-270deg);
+      }
+    }
+
+    &__item {
+      position: relative;
+    }
+
+  }
+}
+
+.headerNav.openMobileMenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.36);
+  transition: var(--transitionTime) ease;
+}
+
+.headerNav.closeMobileMenu {
+  transform: translateX(100%);
+  transition: var(--transitionTime) ease;
+}
+
+
