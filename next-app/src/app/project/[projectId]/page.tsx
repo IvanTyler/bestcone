@@ -1,6 +1,6 @@
 'use client'
 
-import {FC, useEffect} from "react";
+import {useEffect} from "react";
 import {useParams} from "next/navigation";
 
 import {useMutation} from "@tanstack/react-query";
@@ -9,12 +9,9 @@ import {queryClient} from "@/Api/queryClient";
 import {Preloader} from "@/Components/UI/Preloader/Preloader";
 import {ObjectsManagementView} from "@/app/project/ObjectsManagementInfo/ObjectsManagementView";
 
-
-export const Page: FC = () => {
+export default function Page() { // ← функция по умолчанию
     const params = useParams();
     const projectId = params.projectId as string;
-
-    console.log('projectId', projectId)
 
     const submitMutation = useMutation({
         mutationFn: () => submitProjectData(Number(projectId)),
@@ -39,5 +36,3 @@ export const Page: FC = () => {
             )
     }
 }
-
-export default Page;
