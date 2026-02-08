@@ -1,8 +1,8 @@
 import {FC} from "react";
 import style from './DocumentsItem.module.scss';
 
-import iconPDF from '/src/assets/img/icon-pdf.svg'
-import iconWORD from '/src/assets/img/icon-word.svg'
+import iconPDF from '@/assets/img/icon-pdf.svg'
+import iconWORD from '@/assets/img/icon-word.svg'
 import {DocType} from "@/Api/organizationsData";
 
 
@@ -15,9 +15,9 @@ export const DocumentsItem: FC<IDocumentsItem> = ({item}) => {
     const typeDocument = () => {
         switch (item.type) {
             case 'PDF':
-                return iconPDF.src;
+                return iconPDF;
             case 'WORD':
-                return iconWORD.src;
+                return iconWORD;
         }
     }
 

@@ -1,7 +1,7 @@
 import {FC} from "react";
 import style from './AboutCompany.module.scss';
 
-import img from '/src/assets/img/large-features-1-470x334.png';
+import img from '@/assets/img/large-features-1-470x334.png'; // ← исправлено
 import {Container} from "@/Components/UI/Container/Container";
 import {ButtonBlue} from "@/Components/UI/ButtonBlue/ButtonBlue";
 
@@ -21,7 +21,8 @@ const AboutCompany: FC<IAboutCompanyProps> = ({positionTopSection}) => {
                 </p>
                 <ButtonBlue positionTopSection={positionTopSection} className={style.aboutCompany__button} text={'Наша история'} />
                 <div className={style.aboutCompany__wrapperImg}>
-                    <img src={img.src} alt="about-company" className={style.aboutCompany__img}/>
+                    {/* Прямой src без .src */}
+                    <img src={img} alt="about-company" className={style.aboutCompany__img}/>
                 </div>
             </Container>
         </section>
