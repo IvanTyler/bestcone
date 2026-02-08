@@ -15,7 +15,7 @@ export const AboutCompany: FC = () => {
                     обслуживания и улучшения условий проживания жителей многоквартирных домов.
                     Эффективность эксплуатации повышается, так как конструкции и коммуникации домов понятны и знакомы.
                 </p>
-                <ButtonBlue className={style.aboutCompany__button} text={'Наша история'} />
+                <ButtonBlue link={'/about-us'} className={style.aboutCompany__button} text={'Наша история'} />
                 <div className={style.aboutCompany__wrapperImg}>
                     <img src={img} alt="about-company" className={style.aboutCompany__img}/>
                 </div>

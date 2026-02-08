@@ -19,7 +19,7 @@ const AboutCompany: FC<IAboutCompanyProps> = ({positionTopSection}) => {
                     обслуживания и улучшения условий проживания жителей многоквартирных домов.
                     Эффективность эксплуатации повышается, так как конструкции и коммуникации домов понятны и знакомы.
                 </p>
-                <ButtonBlue positionTopSection={positionTopSection} className={style.aboutCompany__button} text={'Наша история'} />
+                <ButtonBlue link={'/about-us'} positionTopSection={positionTopSection} className={style.aboutCompany__button} text={'Наша история'} />
                 <div className={style.aboutCompany__wrapperImg}>
                     {/* Прямой src без .src */}
                     <img src={img.src} alt="about-company" className={style.aboutCompany__img}/>
