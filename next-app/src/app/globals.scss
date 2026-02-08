@@ -1,5 +1,5 @@
-@import '../assets/fonts/Roboto/roboto.scss';
-@import '../assets/fonts/icons-bigmug-line/fl-icon.scss';
+@forward '../assets/fonts/Roboto/roboto.scss';
+@forward '../assets/fonts/icons-bigmug-line/fl-icon.scss';
 
 html, body {
   height: 100%;
