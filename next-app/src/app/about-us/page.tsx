@@ -1,7 +1,7 @@
 'use client'
 
 import {FC, useState} from "react";
-import fon from '/src/assets/img/about/index.webp'
+import fon from '@/assets/img/about/index.webp'
 import {SectionBreadCrumbs} from "@/Components/UI/SectionBreadCrumbs/SectionBreadCrumbs";
 import AboutCompany from "./AboutCompany/AboutCompany";
 import Timeline from "./Timeline/Timeline";

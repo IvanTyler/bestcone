@@ -22,7 +22,7 @@ const AboutCompany: FC<IAboutCompanyProps> = ({positionTopSection}) => {
                 <ButtonBlue positionTopSection={positionTopSection} className={style.aboutCompany__button} text={'Наша история'} />
                 <div className={style.aboutCompany__wrapperImg}>
                     {/* Прямой src без .src */}
-                    <img src={img} alt="about-company" className={style.aboutCompany__img}/>
+                    <img src={img.src} alt="about-company" className={style.aboutCompany__img}/>
                 </div>
             </Container>
         </section>

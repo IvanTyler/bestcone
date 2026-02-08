@@ -2,11 +2,11 @@ import { FC, useEffect, useRef } from "react";
 import style from './Timeline.module.scss';
 import {Container} from "@/Components/UI/Container/Container";
 
-import aboutStage1 from '/src/assets/img/about/about-stage-1.webp';
-import aboutStage2 from '/src/assets/img/about/about-stage-2.webp';
-import aboutStage3 from '/src/assets/img/about/about-stage-3.webp';
-import aboutStage4 from '/src/assets/img/about/about-stage-4.webp';
-import aboutStage5 from '/src/assets/img/about/about-stage-5.webp';
+import aboutStage1 from '@/assets/img/about/about-stage-1.webp';
+import aboutStage2 from '@/assets/img/about/about-stage-2.webp';
+import aboutStage3 from '@/assets/img/about/about-stage-3.webp';
+import aboutStage4 from '@/assets/img/about/about-stage-4.webp';
+import aboutStage5 from '@/assets/img/about/about-stage-5.webp';
 
 interface ITimeLineProps {
     setPositionTopSection: (item: number) => void;
