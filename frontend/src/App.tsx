@@ -49,7 +49,7 @@ function App() {
             window.removeEventListener('scroll', handleLoad);
         };
 
-    }, [])
+    }, [scrollTop])
 
     return (
         <BrowserRouter>

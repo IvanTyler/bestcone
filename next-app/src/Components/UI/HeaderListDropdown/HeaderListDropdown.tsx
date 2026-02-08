@@ -22,7 +22,7 @@ export const HeaderListDropdown: FC<IDropdownProps> = memo((
         nameList
     }) => {
 
-    const elementRef = useRef<any>(null);
+    const elementRef = useRef<HTMLUListElement>(null);
 
     useEffect(() => {
         if (elementRef.current) {
@@ -32,7 +32,7 @@ export const HeaderListDropdown: FC<IDropdownProps> = memo((
             }
 
         }
-    }, [isShowDropdown]);
+    }, [isShowDropdown, maxHeight]);
 
     const isNameFunc = () => {
         switch (nameList) {
@@ -67,3 +67,5 @@ export const HeaderListDropdown: FC<IDropdownProps> = memo((
         </ul>
     );
 });
+
+HeaderListDropdown.displayName = 'HeaderListDropdown';

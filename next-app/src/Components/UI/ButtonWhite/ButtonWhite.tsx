@@ -14,7 +14,7 @@ export const ButtonWhite: FC<IButtonWhiteProps> = ({myClassName, text, positionT
 
     useEffect(() => {
         if (positionTopSection) scrollTop()
-    }, []);
+    }, [positionTopSection]);
 
     const scrollTop = () => {
         window.scrollTo({

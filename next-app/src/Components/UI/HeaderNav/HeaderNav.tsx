@@ -206,3 +206,5 @@ export const HeaderNav: FC<IHeaderNavProps> = memo(({isOpenMenu, windowWidth, mo
         </nav>
     );
 });
+
+HeaderNav.displayName = 'HeaderNav';

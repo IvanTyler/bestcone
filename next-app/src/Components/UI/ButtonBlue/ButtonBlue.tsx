@@ -15,7 +15,7 @@ export const ButtonBlue: FC<IButtonProps> = ({ text, className, link, positionTo
 
     useEffect(() => {
         if (positionTopSection) scrollTop()
-    }, []);
+    }, [positionTopSection]);
 
     const scrollTop = () => {
         window.scrollTo({
