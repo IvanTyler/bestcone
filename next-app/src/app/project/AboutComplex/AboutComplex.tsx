@@ -38,7 +38,7 @@ export const AboutComplex: FC<IAboutComplexProps> = ({info, setPositionTopSectio
                 <div className={style.aboutComplexInfo}>
                     <div className={style.aboutComplexInfo__item}>
                         <div className={style.aboutComplexInfo__iconWrapper}>
-                            <img src={aboutItem1.src} alt="date"
+                            <img src={'/img/object/about-item-1.svg'} alt="date"
                                  className={style.aboutComplexInfo__icon}/>
                         </div>
                         <span className={style.aboutComplexInfo__title}>Дата постройки</span>
@@ -46,7 +46,7 @@ export const AboutComplex: FC<IAboutComplexProps> = ({info, setPositionTopSectio
                     </div>
                     <div className={style.aboutComplexInfo__item}>
                         <div className={style.aboutComplexInfo__iconWrapper}>
-                            <img src={aboutItem2.src} alt="date"
+                            <img src={'/img/object/about-item-2.svg'} alt="date"
                                  className={style.aboutComplexInfo__icon}/>
                         </div>
                         <span className={style.aboutComplexInfo__title}>Управляющая компания</span>
@@ -54,7 +54,7 @@ export const AboutComplex: FC<IAboutComplexProps> = ({info, setPositionTopSectio
                     </div>
                     <div className={style.aboutComplexInfo__item}>
                         <div className={style.aboutComplexInfo__iconWrapper}>
-                            <img src={aboutItem3.src} alt="date"
+                            <img src={'/img/object/about-item-3.svg'} alt="date"
                                  className={style.aboutComplexInfo__icon}/>
                         </div>
                         <span className={style.aboutComplexInfo__title}>Класс</span>
@@ -62,7 +62,7 @@ export const AboutComplex: FC<IAboutComplexProps> = ({info, setPositionTopSectio
                     </div>
                     <div className={style.aboutComplexInfo__item}>
                         <div className={style.aboutComplexInfo__iconWrapper}>
-                            <img src={aboutItem4.src} alt="date"
+                            <img src={'/img/object/about-item-4.svg'} alt="date"
                                  className={style.aboutComplexInfo__icon}/>
                         </div>
                         <span className={style.aboutComplexInfo__title}>Этажность</span>
@@ -70,7 +70,7 @@ export const AboutComplex: FC<IAboutComplexProps> = ({info, setPositionTopSectio
                     </div>
                     <div className={style.aboutComplexInfo__item}>
                         <div className={style.aboutComplexInfo__iconWrapper}>
-                            <img src={aboutItem5.src} alt="date"
+                            <img src={'/img/object/about-item-5.svg'} alt="date"
                                  className={style.aboutComplexInfo__icon}/>
                         </div>
                         <span className={style.aboutComplexInfo__title}>Корпусов</span>
@@ -78,7 +78,7 @@ export const AboutComplex: FC<IAboutComplexProps> = ({info, setPositionTopSectio
                     </div>
                     <div className={style.aboutComplexInfo__item}>
                         <div className={style.aboutComplexInfo__iconWrapper}>
-                            <img src={aboutItem6.src} alt="date"
+                            <img src={'/img/object/about-item-6.svg'} alt="date"
                                  className={style.aboutComplexInfo__icon}/>
                         </div>
                         <span className={style.aboutComplexInfo__title}>Варианты парковки</span>
