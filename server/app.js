@@ -9,7 +9,7 @@ const organizationsInfoRouter = require('./routes/organizationInfoRouter');
 
 
 const app = express();
-const PORT = 3005;
+const PORT = process.env.PORT || 3005;
 
 app.use(cors({
     // origin: ['http://localhost:3000', 'http://localhost:3001'], // все возможные порты
