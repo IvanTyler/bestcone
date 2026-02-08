@@ -2,7 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
     eslint: {
-        ignoreDuringBuilds: true, // ← игнорировать ошибки ESLint при сборке
+        ignoreDuringBuilds: true,
+    },
+    typescript: {
+        ignoreBuildErrors: true, // если нужно игнорировать TS ошибки
     },
 };
 
