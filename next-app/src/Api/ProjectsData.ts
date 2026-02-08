@@ -21,6 +21,7 @@ export type ProjectsType = z.infer<typeof ProjectsSchema>
 
 
 const HomeSliderSchema = z.object({
+    id: z.string(),
     photo: z.string(),
 });
 
