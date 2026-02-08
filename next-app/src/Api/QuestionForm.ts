@@ -1,4 +1,4 @@
-import {validateResponse} from "./ValidateResponse.ts";
+import {validateResponse} from "./ValidateResponse";
 
 
 type QuestionFormType = {
