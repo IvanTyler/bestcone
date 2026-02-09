@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 3005;
 
 app.use(cors({
-    origin: ['https://bestcone.vercel.app/'], // все возможные порты
+    origin: ['https://bestcone-api.onrender.com/'], // все возможные порты
     credentials: true
 }));
 
