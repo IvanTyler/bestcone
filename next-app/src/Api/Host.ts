@@ -1,1 +1,1 @@
-export const HOST = 'https://bestcone-api.onrender.com/';
+export const HOST = 'https://bestcone-api.onrender.com';
