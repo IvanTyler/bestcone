@@ -30,8 +30,3 @@ jobs:
             echo "❌ Unexpected response: $HTTP_STATUS"
             exit 1
           fi
-      
-      - name: Ping health endpoint
-        run: |
-          echo "🏥 Pinging health endpoint..."
-          curl -s -X GET "https://bestcone-api.onrender.com/api/health" || echo "Health endpoint not available yet"
