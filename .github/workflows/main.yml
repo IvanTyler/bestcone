@@ -1,0 +1,37 @@
+name: Keep Render Alive
+
+on:
+  schedule:
+    # Запускать каждые 5 минут
+    - cron: '*/5 * * * *'
+  workflow_dispatch:  # Для ручного запуска
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check current time
+        run: echo "🕒 Current time is $(date)"
+      
+      - name: Ping Render API
+        run: |
+          echo "🌐 Pinging: https://bestcone-api.onrender.com"
+          
+          # Отправляем GET запрос к API
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X GET "https://bestcone-api.onrender.com")
+          
+          echo "📊 HTTP Status Code: $HTTP_STATUS"
+          
+          if [ "$HTTP_STATUS" -eq 200 ]; then
+            echo "✅ Success! API is awake"
+          elif [ "$HTTP_STATUS" -eq 000 ]; then
+            echo "⚠️  API is waking up (curl returned 000)"
+          else
+            echo "❌ Unexpected response: $HTTP_STATUS"
+            exit 1
+          fi
+      
+      - name: Ping health endpoint
+        run: |
+          echo "🏥 Pinging health endpoint..."
+          curl -s -X GET "https://bestcone-api.onrender.com/api/health" || echo "Health endpoint not available yet"
